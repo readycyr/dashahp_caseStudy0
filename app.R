@@ -576,6 +576,7 @@ server <- function(input, output) {
         # http://nvd3-community.github.io/nvd3/examples/documentation.html#multiBarChart 
         require(rCharts)
         #options(RCHART_WIDTH = 800)
+      
         if (length(input$mychooser$right) > 0) {
             outSelection <- subset(data54Sites, data54Sites$SITES %in% input$mychooser$right)
         }
