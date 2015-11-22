@@ -1,0 +1,79 @@
+/* TREE */
+
+.nodeContainer {
+        font-family: "Times", "Times New Roman", "serif";
+        font-weight: bold;
+        font-size: 10px;
+/*        width:200px; */
+        height:100px; 
+        background: #dfdfdf ;
+        padding: 5px;
+        margin: 5px;
+       
+        /* border */
+        border-width: 2px;
+        border-style: solid;
+        border-color: black; /* border-color: red green yellow transparent; */ 
+         /*border-radius: 25px;  border-radius: 15px 50px 30px 5px */
+       
+        -moz-border-radius: 50px/15px; 
+        -webkit-border-radius: 50px/15px;
+        border-radius: 50px/15px;
+        -webkit-transition: all 0.5s; 
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; 
+}
+
+/**/
+tr.google-visualization-orgchart-noderow-large :hover {
+        background: #c8e4f8; 
+        color: #000; 
+        border: 5px solid orange;
+}
+
+.widgetHierarchy {
+        font-family: "Times", "Times New Roman", "serif";
+        font-weight: bold;
+        font-size: 18px;
+}
+
+/* 
+https://github.com/mbostock/d3/wiki/Gallery 
+http://bl.ocks.org/robschmuecker/7880033
+*/
+.recBox {
+    fill: white;
+    stroke: black;
+    stroke-width: 2.5px;
+    opacity: 1;
+}
+
+.link {
+  fill: none;
+  stroke: blue;
+  stroke-width: 5px;
+}
+
+.nodeTitle {
+    font-family: "Times", "Times New Roman", "serif";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nodeText {
+    font-family: "Times", "Times New Roman", "serif";
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.alternativeLink {
+    fill: none;
+    stroke: grey;
+    stroke-width: 0.5px;
+}
+  
+.node text { font: 12px sans-serif; }
+	
+
+
